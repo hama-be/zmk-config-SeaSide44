@@ -63,12 +63,12 @@
             >;
         };
 
-        NUM {
+        Functionkey_and_mouse {
             bindings = <
-&trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12                    &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS         &kp MINUS  &kp N0
-&trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK     &kp SLASH  &kp N1
-&trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE  &kp COLON  &kp N2
-                &trans  &trans   &trans   &trans   &trans    &trans  &kp NUMBER_0                &kp PERIOD
+&trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12                    &trans  &trans    &mkp MB1  &kp PAGE_UP     &mkp MB2  &trans
+&trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &trans  &mkp MB5  &mkp MB1  &msc MOVE_Y(0)  &mkp MB2  &trans
+&trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &trans  &trans    &mkp MB4  &kp PAGE_DOWN   &trans    &trans
+                &trans  &trans   &trans   &trans   &trans    &trans  &trans            &trans
             >;
         };
 
